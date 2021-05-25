@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".Controlador.Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <!-- Content here -->
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+
+                android:src="@drawable/resultados" />
+
+            <TextView
+                android:id="@+id/lblResul_resultado"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_marginTop="30sp"
+                android:textStyle="bold"
+                android:textColorHint="@android:color/black"
+
+                />
+
+            <Button
+                android:id="@+id/btnResul_PantPrincipal"
+                android:layout_width="300sp"
+                android:layout_height="30sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/boton_redondear"
+                android:text="Main Screen"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sentiment Analysis</string>
+    <string name="usuario">User</string>
+    <string name="clave">Password</string>
+    <string name="btnLogin">Log In</string>
+    <string name="analisis">What do you think when you see the image?</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".Controlador.Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <!-- Content here -->
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+
+                android:src="@drawable/imagen1" />
+
+
+            <Button
+                android:id="@+id/btnPantPrin_Jugar"
+                android:layout_width="300sp"
+                android:layout_height="30sp"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/boton_redondear"
+                android:text="Play"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:onClick="jugar"/>
+
+            <Button
+                android:id="@+id/btnPantPrin_CerarSesion"
+                android:layout_width="300sp"
+                android:layout_height="30sp"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/boton_redondear"
+                android:text="Log Out"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:onClick="cerrarSesion"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
